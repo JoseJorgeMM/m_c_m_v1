@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+#problem, #solution {
+    font-size: 24px;
+    margin: 20px 0;
+}
+#explanation {
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: left;
+}
+.step {
+    margin: 10px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+.step.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
